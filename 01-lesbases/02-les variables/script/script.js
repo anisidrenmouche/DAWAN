@@ -66,6 +66,8 @@ console.log("Variable déclaré avec var :", x);
 }
 console.log(toto);
 
+
+
 // Avec le mot clé let la variable sera accessible uniquement dans le bloc
 // ou elle est déclaré.
 // Si elle est déclaré à la racine du script
@@ -86,7 +88,6 @@ console.log("Variable déclaré en let à l'intérieur d'un bloc :", w);
  * la varibale sera accessible dans le bloc dans lequel elle est definit
  */
 const c = 50;
-
 {
   const c = 10;
   console.log("Variable définit avec const:", c);
